@@ -1,0 +1,25 @@
+{
+  "name": "nodejsdocs",
+  "version": "1.0.0",
+  "description": "Mandatory for nodejs classes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andr01a0/nodejsDocs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "André Bittencourt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andr01a0/nodejsDocs/issues"
+  },
+  "homepage": "https://github.com/andr01a0/nodejsDocs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
