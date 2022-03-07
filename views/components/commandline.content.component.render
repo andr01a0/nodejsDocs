@@ -1,0 +1,32 @@
+<h1>Linux Command Line <i class="bi bi-terminal-fill"></i></h1>
+<p>
+	<kbd>$ pwd</kbd> - returns working directory name
+</p>
+<p>
+	<kbd>$ cd PATH</kbd> - change directory to PATH
+</p>
+<p>
+	<kbd>$ cd ..</kbd> - change to parent directory<br/>
+</p>
+<p>
+	<kbd>$ ls</kbd> - list directory contents
+</p>
+<p>
+	<kbd>$ cat FILE</kbd> - concatenate and print files
+</p>
+<p>
+	<kbd>$ cp SOURCEFILE TARGETFILE</kbd> - copy files
+</p>
+<p>
+	<kbd>$ mkdir DIRECTORY</kbd> - make directories
+</p>
+<p>
+	<kbd>$ mv SOURCE TARGET</kbd> - move files
+</p>
+<p>
+	<kbd>$ rm FILE</kbd> - remove directory entries
+</p>
+<p>
+	<kbd>$ touch FILE</kbd> - change file access and modification times<br/>
+	If any file does not exist, it is created with default permissions.
+</p>

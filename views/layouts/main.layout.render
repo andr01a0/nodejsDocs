@@ -9,7 +9,8 @@
 </head>
 <body>
 	{{navbar}}
-	{{page}}
+	{{container}}
+	{{footer}}
 	{{scripts}}
 </body>
 </html>

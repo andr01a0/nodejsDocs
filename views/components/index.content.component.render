@@ -1,0 +1,21 @@
+<h1>Mandatory Project 1</h1>
+<h5>KEA - Node.js Elective</h5>
+<p class="lead">
+	Create a website that contains documentation for what you have learned so far
+</p>
+<br/>
+<strong>Requirements for the project:</strong>
+<ul>
+  <li>Serve the pages with Express</li>
+  <li>Use Server-Side Rendering (SSR)</li>
+  <li>Split up the documentation in pages rather than one long HTML page</li>
+  <li>Should have some nice styling (custom or with a styling framework)</li>
+</ul>
+<br/>
+<strong>Requirements for the documentation:</strong>
+<ul>
+  <li>Should contain terminal commands</li>
+  <li>Should contain code snippets</li>
+  <li>Should contain all the tools</li>
+  <li>Should cover all the theory</li>
+</ul>
