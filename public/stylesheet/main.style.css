@@ -8,3 +8,8 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+pre {
+  display: inline;
+  margin: 0;
+}

@@ -1,1 +1,68 @@
-<h1>Node.js</h1>
+<h1>Node.js <i class="bi bi-code-slash"></i></h1>
+<img class="logo-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1180px-Node.js_logo.svg.png?20170401104355" width="125px" heigh="125px"/>
+<hr/>
+<h3>Include modules</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<pre>const express = require('express')</pre>
+<hr/>
+<h3>Create a custom module</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<pre>
+module.exports = function () {
+	return 'string'
+}
+</pre>
+<hr/>
+<h3>File System</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<pre>
+const fs = require('fs')
+fs.readFile('path/file.ext', function(err, data) {
+	console.log(data.toString())
+}
+</pre>
+<hr/>
+<h3>Express APP</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<pre>
+const express = require('express')
+const app = express()
+const port = 3000
+	
+app.get('/', (req, res) => {
+	res.send('Hello World!')
+})
+	
+app.listen(port, () => {
+	console.log(`Example app listening on port ${port}`)
+})
+</pre>
+<hr/>
+<h3>Serve Static Files</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<pre>
+const path = require('path')
+app.use('/public', express.static(path.join(__dirname, 'public')))
+</pre>
+<hr/>
+<h3>Run APP</h3>
+<hr/>
+<p>
+	<strong>Example:</strong>
+</p>
+<kbd>$ node app.js</kbd>
