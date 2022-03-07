@@ -50,6 +50,33 @@ app.listen(port, () => {
 })
 </pre>
 <hr/>
+<h3>Basic Routing</h3>
+<hr/>
+<p>
+	<code>app.METHOD(PATH, HANDLER)</code><br/>
+	<ul>
+		<li>app is an instance of express</li>
+		<li>METHOD is an HTTP request method, in lowercase</li>
+		<li>PATH is a path on the server</li>
+		<li>HANDLER is the function executed when the route is matched</li>
+	</ul>
+	<strong>Example:</strong>
+</p>
+<pre>
+app.get('/', (req, res) => {
+	res.send('Hello World!')
+})
+app.post('/', (req, res) => {
+	res.send('Got a POST request')
+})
+app.put('/user', (req, res) => {
+	res.send('Got a PUT request at /user')
+})
+app.delete('/user', (req, res) => {
+	res.send('Got a DELETE request at /user')
+})
+</pre>
+<hr/>
 <h3>Serve Static Files</h3>
 <hr/>
 <p>
